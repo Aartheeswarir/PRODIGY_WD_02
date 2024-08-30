@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    height: 100vh;
+    background-image: url('watch.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #fff; /* Text color for readability */
+}
+
+.stopwatch-container {
+    position: relative; /* Enables using left/right positioning */
+    left: -10%; /* Move it slightly to the left of the center */
+    text-align: center;
+}
+
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent button background */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+}
